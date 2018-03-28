@@ -1,0 +1,30 @@
+.square{
+    width:100px;
+    height:100px;
+    font-size; 20px:
+}
+
+.v{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+
+.h{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+h1 {
+  	text-align: center;
+}
+
+#board {
+	display: flex;
+  	justify-content: center;
+}
+
+table {
+    align-self: center;
+    margin-top: 2em;
+    background-color: blue;
+}

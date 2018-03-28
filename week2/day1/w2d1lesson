@@ -1,0 +1,52 @@
+// String Literal Notation
+let firstWord = "Hello";
+
+// Object Literal Notation
+const myShinyObject = {};
+
+// Object Constructor
+let myObject = new Object();
+
+// Create a bigfoot myObject
+const bigfoot = {
+  shoeSize: 15,
+  height: "12 Feet Tall",
+  hairColor: "Brown",
+  location: "Hidden",
+  sayHello: () => {
+  console.log("Grroowwl");
+  }
+};
+
+// Get value from Object
+const bigfoot.shoeSize;
+
+// Get all the values in an Object
+bigfoot
+
+// Add value to Object
+const bigfoot.eyeColor = "Black";
+
+// Bracket Notation
+// call a value
+bigfoot["height"];
+
+
+// Create Object with Bracket Notation
+let myHouse = [];
+
+// Create function with Object Notation
+let myHouse = [];
+let frontDoor = function() {console.log("Knock Knock");}
+myHouse.frontDoor = frontDoor
+
+// Remove element
+//Bracket Notation
+delete bigfoot.location;
+//Dot Notation
+remove.bigfoot.location;
+
+//Standard Array
+var fruits = ("Apple", "Orange");
+//same as Object Array
+var myfruits = {"0": "Apple", "1": "Orange"};
