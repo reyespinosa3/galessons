@@ -24,7 +24,7 @@ Flower.prototype.render = function() {
     + this.color
     + " and has "
     + this.petals
-    + "pristine petals";
+    + " pristine petals";
     document.querySelector("body").appendChild(flower);
   }
 Flower.prototype.compare = function(otherFlower) {
@@ -56,3 +56,4 @@ console.log(bluebonnet);
 
 rose.compare(lilly);
 rose.crosspollenate(lilly);
+rose.render();

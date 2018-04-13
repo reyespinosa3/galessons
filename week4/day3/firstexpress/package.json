@@ -1,0 +1,14 @@
+{
+  "name": "firstexpress",
+  "version": "1.0.0",
+  "description": "my first express js install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rey espinosa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
