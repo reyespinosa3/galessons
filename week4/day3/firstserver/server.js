@@ -1,10 +1,13 @@
 const express = require('express');
 const app = express();
+// const bodyParser = require('body-parser');
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
 
 const comedians = [
-  { id: 1, Name: "Gabriel Iglesias", video: "https://youtu.be/Pc5KfDv94Iw"},
-  { id: 2, Name: "Ron White", video: "https://youtu.be/neUaSTSKFZc"},
-  { id: 3, Name: "Aziz Ansari", video: "https://youtu.be/waCF81HdKAA"}
+  { id: 1, name: "Gabriel Iglesias", video: "https://youtu.be/Pc5KfDv94Iw"},
+  { id: 2, name: "Ron White", video: "https://youtu.be/neUaSTSKFZc"},
+  { id: 3, name: "Aziz Ansari", video: "https://youtu.be/waCF81HdKAA"}
 ];
 const videos = [
     {id: 1, title: "America is the Greatest Country in the United States", url: "https://www.netflix.com/watch/80208273?trackId=13752289&tctx=0%2C0%2C"},
@@ -19,8 +22,10 @@ const camping = [
 
 
 // code to post to comedian object
-app.post('/', function (req, res) {
-  response.send('POST request to homepage');
+app.post('/comedians', function (req, res) {
+  console.log("You are making progress!");
+
+  res.send("Got it");
 });
 
 // returns list of overnight camping sites around Austin
